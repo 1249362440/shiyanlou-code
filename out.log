@@ -1,0 +1,19 @@
+    1  cd Code
+    2  git clone https://github.com/1249362440/shiyanlou-code.git
+    3  l
+    4  cd shiyanlou-code
+    5  l
+    6  gedit jump7.py
+    7  l
+    8  git add jump7.py
+    9  git commit -m "first"
+   10  git config --global user.name 1249362440
+   11  git config --global user.email 1249362440@qq.com
+   12  git commit -m "first"
+   13  git remote https://github.com/1249362440/shiyanlou-code.git
+   14  git remote origin https://github.com/1249362440/shiyanlou-code.git 
+   15  git remote add origin https://github.com/1249362440/shiyanlou-code.git 
+   16  git remote add shiyanlou https://github.com/1249362440/shiyanlou-code.git 
+   17  git push shiyanlou master
+   18  history
+   19  tailf history > out.log
